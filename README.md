@@ -4,7 +4,7 @@ By Samuel Ojum
 
 This repository contains a Python-based Streamlit application designed to calculate the annualized volatility of a custom stock portfolio using historical market data. The project demonstrates how diversification, weighting, and inter-asset correlations influence overall portfolio risk, providing both analytical insights and practical computational experience in quantitative finance.
 
-1. Overview
+#1. Overview
 
 The Portfolio Volatility Calculator allows users to input stock tickers, assign corresponding portfolio weights, and select a historical time horizon to analyze the portfolio’s risk profile. Using live data retrieved from the Yahoo Finance API, the application computes both individual stock volatilities and the overall portfolio volatility through covariance-based modeling.
 
