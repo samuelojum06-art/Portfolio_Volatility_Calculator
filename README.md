@@ -41,5 +41,17 @@ Samuel Ojum
 Finance & Mathematics @ University of Arizona
 LinkedIn
 
+# Clone the repository
+git clone https://github.com/Samuelojum06-art/Portfolio_Volatility_Calculator.git
+cd Portfolio_Volatility_Calculator
+
+# Install dependencies
+pip install -r requirements.txt
+# (If the requirements file is unavailable, install manually:)
+# pip install streamlit yfinance numpy pandas matplotlib
+
+# Run the Streamlit app
+streamlit run "Volatility Calculator.py"
+
 
 
