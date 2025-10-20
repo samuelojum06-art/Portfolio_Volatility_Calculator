@@ -12,7 +12,7 @@ This project highlights the integration of financial theory, quantitative comput
 
 2. Methodology
 
-Market data is collected through the yfinance API, which provides historical adjusted closing prices to ensure accuracy in total return estimation. Users can choose between four time horizons—six months, one year, two years, or five years—depending on the desired analytical depth. Once the user inputs stock tickers (for example, AAPL, MSFT, and TSLA) and corresponding weights (such as 0.4, 0.3, and 0.3), the application verifies that the weights are formatted correctly and sum to one, ensuring portfolio consistency.
+Market data is collected through the yfinance API, which provides historical adjusted closing prices to ensure accuracy in total return estimation. Users can choose between four time horizons, six months, one year, two years, or five years, depending on the desired analytical depth. Once the user inputs stock tickers (for example, AAPL, MSFT, and TSLA) and corresponding weights (such as 0.4, 0.3, and 0.3), the application verifies that the weights are formatted correctly and sum to one, ensuring portfolio consistency.
 
 Portfolio volatility is calculated using the covariance matrix approach, defined by the formula 
 σ_p = √(wᵀ Σ w) where 
@@ -25,7 +25,7 @@ The program outputs several analytical results, including the annualized volatil
 
 3. Example Use Case
 
-To illustrate, a user might input three equities—AAPL, MSFT, and TSLA—with respective weights of 0.4, 0.3, and 0.3, and select a one-year time horizon. The calculator retrieves historical price data, computes returns, and determines each asset’s volatility, as well as the correlation between them. The application then reports the overall annualized portfolio volatility, accompanied by a formatted data table summarizing the risk metrics. A graphical visualization further compares the individual volatilities to the total portfolio volatility, demonstrating how diversification mitigates total risk.
+To illustrate, a user might input three equities, AAPL, MSFT, and TSLA, with respective weights of 0.4, 0.3, and 0.3, and select a one-year time horizon. The calculator retrieves historical price data, computes returns, and determines each asset’s volatility, as well as the correlation between them. The application then reports the overall annualized portfolio volatility, accompanied by a formatted data table summarizing the risk metrics. A graphical visualization further compares the individual volatilities to the total portfolio volatility, demonstrating how diversification mitigates total risk.
 
 4. Technical Framework
 
