@@ -41,7 +41,7 @@ Samuel Ojum
 Finance & Mathematics @ University of Arizona
 LinkedIn
 
-bash //
+```bash
 Clone the repository
 git clone https://github.com/Samuelojum06-art/Portfolio_Volatility_Calculator.git
 cd Portfolio_Volatility_Calculator
